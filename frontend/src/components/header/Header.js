@@ -1,9 +1,13 @@
-import React from 'react'
+import './Header.css';
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
 function Header() {
   return (
     <div className="Header">
-        <h1>Laura's Epic Fitness</h1>
+        <h1>
+          <NavLink to='/' className="headerTitle">Lift and Nourish</NavLink>
+        </h1>
     </div>
   )
 }

@@ -1,0 +1,12 @@
+.About {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f2f1ed;
+  }
+  
+  .About h1 {
+    text-align: top;
+  }
+  

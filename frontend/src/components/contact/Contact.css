@@ -1,0 +1,11 @@
+.Contact {
+    height: 100vh; /* 100% of the viewport height */
+    width: 100%;   /* 100% of the viewport width */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    background-color: #f2f1ed; /* Set a background color if needed */
+}
+
+.Contact h1 {
+    text-align: top; /* Center text within the div */
+}

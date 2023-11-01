@@ -1,9 +1,10 @@
+import './Home.css';
 import React from 'react';
 
 function Home() {
   return (
-    <div>
-        <h1>Welcome to the homepage!!</h1>
+    <div className="Home">
+        <h1>Welcome to Laura's Lift and Nourish hollistic fitness programme</h1>
     </div>
   )
 }
