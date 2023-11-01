@@ -1,0 +1,14 @@
+.line {
+    position: relative;
+    bottom: -20;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 20;
+    height: 2px;
+    background-color: blue;
+    transition: width 0.3s ease;
+}
+  
+.title:hover .line {
+    width: 95%;
+}

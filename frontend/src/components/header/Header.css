@@ -20,11 +20,11 @@
     transform: translateX(-50%);
     width: 0;
     height: 2px;
-    background-color: blue; /* Adjust the color as needed */
-    transition: width 0.3s ease; /* Smooth transition effect */
+    background-color: blue;
+    transition: width 0.3s ease;
 }
   
 .headerTitle:hover .line {
-    width: 100%;
+    width: 600%;
 }
   

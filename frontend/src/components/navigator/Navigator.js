@@ -1,8 +1,8 @@
 import '../header/Header.css';
 import './Navigator.css';
 import React from 'react';
-import { NavLink } from 'react-router-dom';
 import Header from '../header/Header'
+import NavigatorButton from '../navigatorButton/NavigatorButton'
 
 function Navigator() {
   return (
@@ -10,16 +10,9 @@ function Navigator() {
         <Header />
         <nav>
             <ul>
-                <div>
-                  <li className="title"> <NavLink to='/about'>
-                    <span className="text">About</span>
-                    <div className="line"></div>
-                  </NavLink></li>
-                </div>
-                <li> <NavLink to='/contact'>Contact</NavLink></li>
-                <div className="line"></div>
-                <li> <NavLink to='/gallery'>Gallery</NavLink></li>
-                <div className="line"></div>
+                <NavigatorButton path='/about' text="About" />
+                <NavigatorButton path='/contact' text="Get in touch" />
+                <NavigatorButton path='/gallery' text="Gallery" />
             </ul>
         </nav>
     </div>
