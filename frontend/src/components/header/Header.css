@@ -1,6 +1,30 @@
-.headerTitle {
-    text-decoration: none;
-    padding-left: 20px;
-    color: black;
-    font-size: 80%;
+.Header {
+    text-align: center;
 }
+  
+.headerTitle {
+    position: relative;
+    font-size: 180%;
+    text-decoration: none;
+    color: rgb(24, 131, 164); /* Adjust the color as needed */
+}
+  
+.text {
+    display: inline-block;
+}
+
+.line {
+    position: absolute;
+    bottom: -20;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: blue; /* Adjust the color as needed */
+    transition: width 0.3s ease; /* Smooth transition effect */
+}
+  
+.headerTitle:hover .line {
+    width: 100%;
+}
+  

@@ -10,9 +10,16 @@ function Navigator() {
         <Header />
         <nav>
             <ul>
-                <li> <NavLink to='/about'>About</NavLink></li>
+                <div>
+                  <li className="title"> <NavLink to='/about'>
+                    <span className="text">About</span>
+                    <div className="line"></div>
+                  </NavLink></li>
+                </div>
                 <li> <NavLink to='/contact'>Contact</NavLink></li>
+                <div className="line"></div>
                 <li> <NavLink to='/gallery'>Gallery</NavLink></li>
+                <div className="line"></div>
             </ul>
         </nav>
     </div>
