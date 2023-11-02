@@ -6,7 +6,8 @@
     position: relative;
     font-size: 180%;
     text-decoration: none;
-    color: rgb(24, 131, 164); /* Adjust the color as needed */
+    color: rgb(24, 131, 164);
+    padding-left: 26px;
 }
   
 .text {

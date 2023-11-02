@@ -6,7 +6,7 @@ function Header() {
   return (
     <div className="Header">
       <NavLink to='/' className="headerTitle">
-        <span className="text">Lift and Nourish</span>
+        <span className="text">Lift & Nourish</span>
         <div className="line"></div>
       </NavLink>
     </div>
