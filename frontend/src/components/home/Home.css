@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
     background-color: #f2f1ed;
     height: 100vh;
 }
@@ -10,18 +10,27 @@
 .Home h1 {
     text-align: center;
     color: rgb(24, 131, 164);
-    padding-top: 2px;
+    padding-top: 20px;
+}
+
+.summaryContainer {
+    display: flex;
+    width: 80%;
+    max-width: 800px;
+    margin-top: 20px;
+}
+
+.textSummary {
+    flex: 1;
+    padding-right: 20px;
 }
 
 .image-container {
-    flex: 1;
-    display: flex;
-    align-items: flex-start;
+    max-width: 50%;
     overflow: hidden;
 }
-  
-.Home img {
-    max-height: 50%;
-    width: auto;
+
+.image-container img {
+    width: 100%;
+    height: auto;
 }
-  

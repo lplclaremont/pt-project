@@ -1,4 +1,4 @@
-.Navigator {
+/* .Navigator {
     display: flex;
     align-items: center;
     background-color: white;
@@ -25,4 +25,35 @@ nav ul li {
 nav ul li a {
     color: black;
     text-decoration: none;
-}
+} */
+
+/* Navigator.css */
+.Navigator {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+  }
+  
+  nav {
+    margin-left: auto;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    background-color: white;
+    margin-bottom: 20px;
+    width: 100%;
+    padding-right: 10px;
+  }
+  
+  nav ul li {
+    padding: 20px;
+  }
+  
+  nav ul li a {
+    color: black;
+    text-decoration: none;
+  }
+  
